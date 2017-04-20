@@ -45,6 +45,7 @@ values."
      org
      osx
      zilongshanren-ui
+     (javascript :variables javascript-disable-tern-port-files nil)
      ;;y2kbug
      ;; (shell :variables
      ;;        shell-default-height 30
