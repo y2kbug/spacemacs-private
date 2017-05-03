@@ -44,9 +44,9 @@ values."
      markdown
      org
      osx
+     y2kbug-ui
      zilongshanren-ui
      (javascript :variables javascript-disable-tern-port-files nil)
-     ;;y2kbug
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)

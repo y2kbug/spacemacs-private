@@ -1,7 +1,7 @@
-#+TITLE: y2kbug layer
+#+TITLE: y2kbug-ui layer
 
 # The maximum height of the logo should be 200 pixels.
-[[img/y2kbug.png]]
+[[img/y2kbug-ui.png]]
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
@@ -15,7 +15,7 @@ This layer does wonderful things:
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =y2kbug= to the existing =dotspacemacs-configuration-layers= list in this
+add =y2kbug-ui= to the existing =dotspacemacs-configuration-layers= list in this
 file.
 
 * Key bindings
