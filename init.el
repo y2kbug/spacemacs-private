@@ -37,6 +37,7 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      ivy
+     helm
      auto-completion
      better-defaults
      emacs-lisp
@@ -44,8 +45,8 @@ values."
      markdown
      org
      osx
-     y2kbug-ui
      zilongshanren-ui
+     y2kbug-ui
      (javascript :variables javascript-disable-tern-port-files nil)
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -338,8 +339,7 @@ This function is called at the very end of Spacemacs initialization after
 layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
-you should place your code here."
-
+ you should place your code here."
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
