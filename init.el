@@ -46,6 +46,7 @@ values."
      osx
      zilongshanren-ui
      y2kbug-ui
+     y2kbug-misc
      (javascript :variables javascript-disable-tern-port-files nil)
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -132,8 +133,8 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(solarized-light
-                         spacemacs-dark
                          monokai
+                         spacemacs-dark
                          spacemacs-light
                          )
    ;; If non-nil the cursor color matches the state color in GUI Emacs.
