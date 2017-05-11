@@ -1,4 +1,4 @@
 (configuration-layer/declare-layers '(ztlevi-org
                                       ztlevi-ui
-                                      y2kbug-misc 
+                                      y2kbug-misc
                                       ))

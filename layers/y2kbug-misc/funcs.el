@@ -3,3 +3,8 @@
   (interactive)
   (save-buffer)
   (evil-normal-state))
+
+(defun y2kbug/counsel-imenu ()
+  (interactive)
+  (counsel-imenu)
+  (evil-set-jump))
