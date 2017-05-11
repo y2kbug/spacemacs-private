@@ -44,8 +44,7 @@ values."
      markdown
      org
      osx
-     zilongshanren-ui
-     y2kbug-ui
+     ztlevi-ui
      y2kbug-misc
      (javascript :variables javascript-disable-tern-port-files nil)
      ;; (shell :variables
