@@ -44,8 +44,7 @@ values."
      markdown
      org
      osx
-     ztlevi-ui
-     y2kbug-misc
+	 ztlevi
      (javascript :variables javascript-disable-tern-port-files nil)
      ;; (shell :variables
      ;;        shell-default-height 30
