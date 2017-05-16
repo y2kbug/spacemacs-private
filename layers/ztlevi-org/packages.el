@@ -35,10 +35,10 @@
     :init
     (progn
       ;; do your configuration here
-      (setq blog-admin-backend-type 'hexo
-            blog-admin-backend-path blog-admin-dir
-            blog-admin-backend-new-post-with-same-name-dir nil
-            blog-admin-backend-hexo-config-file "_config.yml"
+      (setq blog-admin-backend-type 'hexo                      ;; 博客类型
+            blog-admin-backend-path blog-admin-dir             ;; hexo博客所在路径
+            blog-admin-backend-new-post-with-same-name-dir nil ;; 默认在drafts创建文章
+            blog-admin-backend-hexo-config-file "_config.yml"  ;; 默认不创建相应的目录
             )
       (add-hook 'blog-admin-backend-after-new-post-hook 'find-file)
       )))
